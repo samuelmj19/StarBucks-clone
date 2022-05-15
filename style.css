@@ -168,3 +168,60 @@ main{
 .main--instruction-articles a:hover{
     text-decoration: none;
 }
+.main--favorite-section{
+    background-color: #f1f8f6; 
+}
+.main--favorite-tittle-container{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    font-size: 1.2rem;
+}
+.main--favorite-options-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main--favorite-options-button button{
+    width: 100px;
+    height: 60px;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main--favorite-options-button button:active{
+    box-shadow: inset 0 -6px #008248;
+}
+.main--favorite-display-container{
+    width: 100%;
+}
+.main--favorite-display-container article{
+    display: flex;
+    background-color: #d4e9e2;
+    box-shadow: inset 0 7px 9px -7px rgb(0 0 0 / 14%);
+    width: 100%;
+    justify-content: center;
+    padding-top: 40px;
+}
+.main--favorite-display-img img{
+    width: 375px;
+    margin-right: 50px;
+}
+.main--favorite-display-info{
+    display: flex;
+    width: 375px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+.main--favorite-display-info h6{
+    font-size: 1.4rem;
+}
+.main--favorite-display-info p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
