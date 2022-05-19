@@ -1,0 +1,35 @@
+@media screen and (max-width: 645px) {
+    .main--instruction-articles{
+        width: 90%;
+        line-height: 1.6rem;
+    }
+    .main--endless-tittle-container{
+        width: 90%;
+    }
+    .main--endless-articles-container article{
+        width: 90%;
+    }
+    .main--payment_method-tittle-container{
+        width: 90%;
+    }
+    .main--star_code-container{
+        width: 80%;
+    }
+    .main--questions-tittle{
+        width: 80%;
+    }
+    .main--info-grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer--references-terms_list-container ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 430px) {
+    .main--favorite-display-img img{
+        width: 100%;
+        margin: 0;
+    }
+}

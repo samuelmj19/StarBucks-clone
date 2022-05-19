@@ -67,6 +67,14 @@
         grid-template-columns: none;
         grid-template-rows: minmax(50px, 100px) repeat(2, minmax(200px, 200px));
     }
+    .main--star_code-container {
+        margin: 0 auto;
+        width: 70%;
+    }
+    .main--questions-tittle {
+        margin: 0 auto;
+        width: 70%;
+    }
     .footer--link-section{
         display: none;
     }
