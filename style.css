@@ -19,7 +19,7 @@ header{
     width: 100%;
     top: 0;
 }
-nav{
+.nav--section{
     display: flex;
     justify-content: space-between;
     background-color: #fff;
@@ -87,6 +87,11 @@ nav{
     padding-left: 125px;
     font-size: 1rem;
     font-weight: bold;
+}
+.nav--responsive-menu{
+    display: none;
+    justify-content: space-between;
+    background-color: #fff;
 }
 main{
     margin-top: 150px;
@@ -451,6 +456,9 @@ main{
     gap: 3%;
     margin: 0 auto;
     border-bottom: solid 1px #ccc;
+}
+.footer--link-section__responsive{
+    display: none;
 }
 .footer--link-section div{
     display: flex;

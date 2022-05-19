@@ -6,26 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarBucks</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive/display-X850px.css">
     <script src="https://kit.fontawesome.com/076a6d24e0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
-            <div class="nav--left-side">
+            <section class="nav--section">
+                <div class="nav--left-side">
+                    <div class="nav--logo"><img src="./img/Starbucks-Logo.png" alt=""></div>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">REWARDS</a></li>
+                    <li><a href="#">GIFT CARDS</a></li>
+                </div>
+                <div class="nav--right-side">
+                    <a class="nav--button-location"><span><i class="fa-solid fa-location-dot"></i></span> Find a store</a>
+                    <button class="nav--button">Sing in</button>
+                    <button class="nav--button button-black">Join now</button>
+                </div>
+            </section>
+            <section class="nav--responsive-menu">
                 <div class="nav--logo"><img src="./img/Starbucks-Logo.png" alt=""></div>
-                <li><a href="#">MENU</a></li>
-                <li><a href="#">REWARDS</a></li>
-                <li><a href="#">GIFT CARDS</a></li>
-            </div>
-            <div class="nav--right-side">
-                <a class="nav--button-location"><span><i class="fa-solid fa-location-dot"></i></span> Find a store</a>
-                <button class="nav--button">Sing in</button>
-                <button class="nav--button button-black">Join now</button>
-            </div>
+                <div class="nav--menu">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </div>
+            </section>
         </nav>
         <div class="header--tittle">
             <p>STARBUCKS REWARDS</p>
         </div>
+        <div class="nav--responsive-menu_hidden">
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">REWARDS</a></li>
+            <li><a href="#">GIFT CARDS</a></li>
+
+            <a class="nav--button-location"><span><i class="fa-solid fa-location-dot"></i></span> Find a store</a>
+            <button class="nav--button">Sing in</button>
+            <button class="nav--button button-black">Join now</button>
+    </div>
     </header>
     <main>
         <section class="main--section-banner">
@@ -260,6 +278,57 @@
                 <a href="#">Delivery</a>
                 <a href="#">Order and Pickup Options</a>
                 <a href="#">Explore and Find Coffee for Home</a>
+            </div>
+        </section>
+        <section class="footer--link-section__responsive">
+            <div>
+                <button>About Us <span><i class="fa-solid fa-angle-down"></i></span></button>
+                <div class="hidden-info--button">
+                    <a href="#">Our Company</a>
+                    <a href="#">Our Coffee</a>
+                    <a href="#">Stories and News</a>
+                    <a href="#">Starbucks Archive</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Costumer Service</a>
+                </div>
+            </div>
+            <div>
+                <button>Careers <span><i class="fa-solid fa-angle-down"></i></span></button>
+                <div class="hidden-info--button">
+                    <a href="#">Culture and Values</a>
+                    <a href="#">Inclusion, Diversity, and Equity</a>
+                    <a href="#">College Achievement Plan</a>
+                    <a href="#">Alumni Community</a>
+                    <a href="#">U.S. Careers</a>
+                    <a href="#">International Careers</a>
+                </div>
+            </div>
+            <div>
+                <button>Social Impact <span><i class="fa-solid fa-angle-down"></i></span></button>
+                <div class="hidden-info--button">
+                    <a href="#">People</a>
+                    <a href="#">Planet</a>
+                    <a href="#">Environmental and Social Impact Reporting</a>
+                </div>
+            </div>
+            <div>
+                <button>For Business Partners <span><i class="fa-solid fa-angle-down"></i></span></button>
+                <div class="hidden-info--button">
+                    <a href="#">Landlord Support Center</a>
+                    <a href="#">Suppliers</a>
+                    <a href="#">Corporate Gift Sales</a>
+                    <a href="#">Office and Foodservice Coffee</a>
+                </div>
+            </div>
+            <div>
+                <button>Order and Pickup <span><i class="fa-solid fa-angle-down"></i></span></button>
+                <div class="hidden-info--button">
+                    <a href="#">Order on the App</a>
+                    <a href="#">Order on Web</a>
+                    <a href="#">Delivery</a>
+                    <a href="#">Order and Pickup Options</a>
+                    <a href="#">Explore and Find Coffee for Home</a>
+                </div>
             </div>
         </section>
         <section class="footer--references-section">
