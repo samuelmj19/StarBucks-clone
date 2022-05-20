@@ -1,13 +1,16 @@
 @media screen and (max-width: 850px) {
     .nav--responsive-menu{
         display: flex;
-        height: 100px;
+        height: 50px;
         align-items: center;
         padding-right: 3%;
     }
     .nav--menu span{
-        font-size: 2rem;
+        font-size: 1.5rem;
         cursor: pointer;
+    }
+    .nav--logo img{
+        width: 70px;
     }
     .nav--responsive-menu_hidden {
         display: flex;
@@ -40,6 +43,12 @@
         align-items: center;
         gap: 30px;
         padding-top: 30px;
+    }
+    .header--tittle{
+        height: 30px;
+    }
+    main{
+        margin-top: 0;
     }
     .main--favorite-options-button{
         display: flex;
