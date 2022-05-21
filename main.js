@@ -17,30 +17,40 @@ function showInfo(newTittle, newInfo,newImg){
 function button25(){
     let newTittle = "Customize your drink";
     let newInfo = "Make your drink just right with an extra espresso shot, dairy substitute or a dash of your favorite syrup.";
-    let newImg = "./img/025.webp"
+    let newImg = "./img/025.webp";
+    const underLine = document.querySelector('.button25')
+    underLine.style.boxShadow = 'inset 0 -6px #008248';
     showInfo(newTittle,newInfo,newImg);
 }
 function button50(){
     let newTittle = "Brewed hot coffee, bakery item or hot tea";
     let newInfo = "Pair coffee cake or an almond croissant with your fresh cup of hot brew.";
-    let newImg = "./img/050.webp"
+    let newImg = "./img/050.webp";
+    const underLine = document.querySelector('.button25')
+    underLine.style.boxShadow = 'none';
     showInfo(newTittle,newInfo,newImg);
 }
 function button150(){
     let newTittle = "Handcrafted drink, hot breakfast or parfait";
     let newInfo = "Have a really good morning with a breakfast sandwich, oatmeal or your favorite drink.";
-    let newImg = "./img/150.png"
+    let newImg = "./img/150.png";
+    const underLine = document.querySelector('.button25')
+    underLine.style.boxShadow = 'none';
     showInfo(newTittle,newInfo,newImg);
 }
 function button200(){
     let newTittle = "Salad, sandwich or protein box";
     let newInfo = "Nourish your day with a hearty Chipotle Chicken Wrap or Eggs & Cheese Protein Box.";
-    let newImg = "./img/200.webp"
+    let newImg = "./img/200.webp";
+    const underLine = document.querySelector('.button25')
+    underLine.style.boxShadow = 'none';
     showInfo(newTittle,newInfo,newImg);
 }
 function button400(){
     let newTittle = "Select merchandise or at-home coffee";
     let newInfo = "Take home a signature cup, a bag of coffee or your choice of select coffee accessories.";
-    let newImg = "./img/400.webp"
+    let newImg = "./img/400.webp";
+    const underLine = document.querySelector('.button25')
+    underLine.style.boxShadow = 'none';
     showInfo(newTittle,newInfo,newImg);
 }
